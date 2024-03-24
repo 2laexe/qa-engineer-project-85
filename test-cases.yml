@@ -8,7 +8,7 @@
   test-data: |
     no data
   steps:
-    - Нажать кнопу Sign Up
+    - Нажать кнопку Sign Up
     - Ввести Nickname 
     - Ввести Email
     - Ввести Password
@@ -28,7 +28,7 @@
     - Нажать кнопу Sign In
     - Ввести Email
     - Ввести Password
-    - нажать кнопку Submint
+    - нажать кнопку Submit
   expected-result: |
     Авторизация успешна, редирект на https://codebattle.hexlet.io/
 
