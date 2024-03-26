@@ -117,7 +117,7 @@
   steps:
     - Нажать кнопку Give up
     - Нажать кнопку Give up
-expected-result: |
+  expected-result: |
     Отображается окно с сообщением If you read this you've lost the game
 
 - summary: |
@@ -131,7 +131,7 @@ expected-result: |
   steps:
     - Произвольно изменить код в окне редактора
     - Нажать кнопку Reset editor
-expected-result: |
+  expected-result: |
     Код вернулся в исходное состояние
 
 - summary: |
@@ -159,7 +159,7 @@ expected-result: |
         
         module.exports = solution;
     - Нажать кнопку Run
-expected-result: |
+  expected-result: |
     Выводиться окно с сообщением Woohoo, you're Champion!!!!!
 
 - summary: |
@@ -172,7 +172,7 @@ expected-result: |
     no data
   steps:
     - Не меняя код нажать Cntrl+Enter
-expected-result: |
+  expected-result: |
     Открывается вкладка Output, выводятся сообщения об ошибке 
 
 - summary: |
@@ -188,7 +188,7 @@ expected-result: |
     - Нажать You may want to create one
     - Произвольно заполнить поля раздела Create a new tournament
     - Нажать кнопку Create
-expected-result: |
+  expected-result: |
     Турнир успешно создан, открыта страница турнира
 
 - summary: |
@@ -203,7 +203,7 @@ expected-result: |
     - Выбрать вкладку HISTORY 
     - Произвольно выбрать игру
     - Нажать кнопку Show
-expected-result: |
+  expected-result: |
     Открылась комната матча, можно просматривать историю
 
 - summary: |
@@ -218,7 +218,7 @@ expected-result: |
     - Выбрать вкладку TOURNAMENTS 
     - Произвольно выбрать игру
     - Нажать кнопку Show
-expected-result: |
+  expected-result: |
     Открыта страница турнира
     
 - summary: |
@@ -237,7 +237,7 @@ expected-result: |
     - Выбрать random task в Choose task by name or tags
     - Нажать кнопку Create battle
     - Нажать кнопку CONTINUE
-expected-result: |
+  expected-result: |
     Успешное создание игры, отбражается сообщение Waiting for an opponent Please wait for someone to join or send an invite using the link below 
     
 - summary: |
@@ -252,7 +252,7 @@ expected-result: |
     - Открыыть выпадающий список языков
     - Выбрать RU
     - Выбрать EN
-expected-result: |
+  expected-result: |
     Описание задания успешно переключается с одного языка на другой
 
 - summary: |
@@ -269,7 +269,7 @@ expected-result: |
     - Выбрать Time control 3 min
     - Нажать кнопку Create battle
     - Ожидать 3 минуты
- expected-result: |
+  expected-result: |
     Отображается сообщение Time is up. There are no winners in the game
 
 - summary: |
@@ -286,7 +286,7 @@ expected-result: |
     - Выбрать друга в Choose opponent
     - Нажать кнопку Create invite
     - Нажать на кнопку приглашения в игру 
-expected-result: |
+  expected-result: |
     Изменился счетчик приглашений на кнопке приглашения в игру, отображается сообщение You invited "имя пользователя"
     
 - summary: |
@@ -300,7 +300,7 @@ expected-result: |
   steps:
     - Нажать на кнопку приглашения в игру 
     - Нажать Accept 
-expected-result: |
+  expected-result: |
     Игра началась, оба пользователя успешно добавлены в комнату игры
     
 - summary: |
@@ -314,7 +314,7 @@ expected-result: |
   steps:
     - Ввести в форму отправки текст сообщения 
     - Нажать Send
-expected-result: |
+  expected-result: |
     Сообщение успешно отправлено, оба пользователя видят сообщение
 
 - summary: |
@@ -328,7 +328,7 @@ expected-result: |
   steps:
     - Пользователь 1
     - Изменить код в редакторе    
-expected-result: |
+  expected-result: |
     Пользователь 2 видит изменения кода в реальном времени
 
 - summary: |
@@ -342,7 +342,7 @@ expected-result: |
   steps:
     - Пользователь 1
     - Ввести изменить код в редакторе    
-expected-result: |
+  expected-result: |
     Пользователь 2 видит изменения кода в реальном времени
 
 - summary: |
@@ -356,7 +356,7 @@ expected-result: |
   steps:    
     - Выбрать созданную игру в лобби 
     - Нажать кнопку Fight
-expected-result: |
+  expected-result: |
     Успешное присоединение к игре
 
 - summary: |
@@ -373,7 +373,7 @@ expected-result: |
     - Нажать Direct message 
     - В вести в форму отправки сообщения текст
     - Нажать кнопку Send 
-expected-result: |
+  expected-result: |
     Пользователь 2 видит сообщение от пользователя 1
 
 - summary: |
@@ -387,7 +387,7 @@ expected-result: |
   steps:
     - Нажать кнопку Vim
     - Выбрать язык (например Java 21)
-expected-result: |
+  expected-result: |
     Vim режим успешно включен, отображается --NORMAL-- в редакторе кода
 
 - summary: |
@@ -402,7 +402,7 @@ expected-result: |
     - Нажать кнопку профиля
     - Нажать кнопку My profile
     - Нажать кнопку COMPLETED GAMES
-expected-result: |
+  expected-result: |
     Отображается статистика пользователя и завершенные игры
 
 - summary: |
@@ -415,7 +415,7 @@ expected-result: |
     no data
   steps:
     - Нажать кнопку Top list в колонке LEADERBOARD
-expected-result: |
+  expected-result: |
     Успешно отображается рейтинг пользователей
 
 - summary: |
@@ -431,7 +431,7 @@ expected-result: |
     - Нажать кнопку Settings
     - Изменить любую настройку
     - Нажать кнопку Save
-expected-result: |
+  expected-result: |
     Настройки успешно изменены, отображается сообщение Your settings has been changed
     
 - summary: |
@@ -450,7 +450,7 @@ expected-result: |
     - Произвольно заполнить обязательные параметры
     - Нажать кнопку Upload
     - Нажать кнопку Upload task
-expected-result: |
+  expected-result: |
     Задание успешно создано
 
 - summary: |
@@ -464,5 +464,5 @@ expected-result: |
   steps:
     - Нажать кнопку Back to home 
     - Нажать кнопку CONTINUE 
-expected-result: |
+  expected-result: |
     Успешное возвращение к игре
