@@ -150,14 +150,14 @@
     - Выбрать react_area в Choose task by name or tags
     - Нажать кнопку Create battle
     - Дописать код, чтобы он выглядел следующим образом:
-        "const _ = require("lodash");
-        const R = require("rambda");
+        'const _ = require("lodash");'
+        'const R = require("rambda");'
         
-        const solution = (width, length) => {
+        'const solution = (width, length) => {
           return width * length;
-        };
+        };'
         
-        module.exports = solution;"
+        'module.exports = solution;'
     - Нажать кнопку Run
   expected-result: |
     Выводиться окно с сообщением Woohoo, you're Champion!!!!!
