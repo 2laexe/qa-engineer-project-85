@@ -149,7 +149,7 @@
     - Выбрать Time control 10 min
     - Выбрать react_area в Choose task by name or tags
     - Нажать кнопку Create battle
-    - Дописать код, чтобы он выглядел следующим образом:
+    - Дописать код, чтобы он выглядел следующим образом 
         #const _ = require("lodash");#
         #const R = require("rambda");#
         
